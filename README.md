@@ -39,3 +39,6 @@ Event Handling: Using click events to trigger logic.
 JavaScript Logic: Managing state with variables and conditions.
 
 Clean Code Structure: Writing readable and maintainable vanilla JavaScript.
+
+
+🚀 Live Demo: 
