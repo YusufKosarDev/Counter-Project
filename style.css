@@ -1,21 +1,50 @@
+body{
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
 #countLabel{
     display: block;
     text-align: center;
-    font-size: 10em;
-    font-family: Helvetica;
+    font-size: 8rem;
+    font-weight: 600;
+    color: #333;
+    background: white;
+    padding: 40px 80px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+    margin-bottom: 30px;
 }
+
 #btnContainer{
     text-align: center;
 }
+
 .buttons{
-    padding: 10px 20px;
-    font-size: 1.5em;
+    padding: 12px 28px;
+    margin: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
     color: white;
-    background-color: hsl(214, 100%, 74%);
-    border-radius: 5px;
+    background: linear-gradient(135deg,#667eea,#764ba2);
+    border: none;
+    border-radius: 12px;
     cursor: pointer;
-    transition: background-color 0.25s;
+    transition: all 0.25s ease;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
+
 .buttons:hover{
-    background-color: hsl(214, 100%, 56%);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+}
+
+.buttons:active{
+    transform: scale(0.95);
 }
